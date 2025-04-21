@@ -3,6 +3,7 @@
 ### Date: April 21, 2025
 ### Please follow the instructions below
 
+Please note: The code below is quite similar to the provided sample app, as I used Postman to make calls to the Parafin API endpoints to trigger the embedded widget's state changes. 
 
 [Parafin Widget](https://docs.parafin.com/capital/present-offers/embedded/reference) is a React component available via the `@parafin/react` npm package that allows you to embed Parafin's capital experience directly within your app. Get up and running in minutes with this quickstart guide.
 
