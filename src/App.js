@@ -14,8 +14,8 @@ function App() {
     const isDevEnvironment = false;
 
     const fetchToken = async () => {
-      //business and person used for demo video: Bobs Burgers
-      const personId = "person_21ad0e03-46f5-47d3-856a-8f6e481774a8";
+      //Insert the person id that you created for this demo here (must start with "person_"):
+      const personId = "<your person id>";
 
       // Fetch Parafin token from server
       const response = await axios.get(
@@ -56,7 +56,7 @@ function App() {
   });
 
   if (!token) {
-    return <LoadingShell>loading...</LoadingShell>;
+    return <LoadingShell>loading...did you remember to enter your person id in line 18 of your App.js file?</LoadingShell>;
   }
 
   return (

@@ -1,6 +1,7 @@
 # Parafin Elements Quickstart
-# Integration Engineer Candidate: Suparna Jasuja
-# Date: April 21, 2025
+### Integration Engineer Candidate: Suparna Jasuja
+### Date: April 21, 2025
+### Please follow the instructions below
 
 
 [Parafin Widget](https://docs.parafin.com/capital/present-offers/embedded/reference) is a React component available via the `@parafin/react` npm package that allows you to embed Parafin's capital experience directly within your app. Get up and running in minutes with this quickstart guide.
@@ -19,7 +20,7 @@
 First, clone the quickstart repository and install dependencies:
 
 ```bash
-$ git clone https://github.com/buildparafin/embedded-demo.git
+$ git clone https://github.com/suparnajasuja/parafininterview.git
 $ cd embedded-demo
 $ npm install
 ```
