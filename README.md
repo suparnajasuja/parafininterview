@@ -1,4 +1,7 @@
 # Parafin Elements Quickstart
+# Integration Engineer Candidate: Suparna Jasuja
+# Date: April 21, 2025
+
 
 [Parafin Widget](https://docs.parafin.com/capital/present-offers/embedded/reference) is a React component available via the `@parafin/react` npm package that allows you to embed Parafin's capital experience directly within your app. Get up and running in minutes with this quickstart guide.
 

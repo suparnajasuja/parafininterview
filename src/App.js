@@ -10,12 +10,12 @@ function App() {
   const [tab, setTab] = useState("capital");
 
   useEffect(() => {
-    // Change to false to use production or sandbox production environment
-    const isDevEnvironment = true;
+    // This app is using the sandbox production environment
+    const isDevEnvironment = false;
 
     const fetchToken = async () => {
-      // Replace with your own Person ID. It should begin with "person_".
-      const personId = "<your-person-id>";
+      //business and person used for demo video: Bobs Burgers
+      const personId = "person_21ad0e03-46f5-47d3-856a-8f6e481774a8";
 
       // Fetch Parafin token from server
       const response = await axios.get(
